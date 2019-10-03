@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+header {
+  background: rgb(73, 117, 156);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  padding: 0.5rem;
+  flex: 2;
+}
+.num_rivers {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.river {
+  margin-top: 5px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  display: flex;
+}
+
+.info {
+  flex: 2;
+}
+.map {
+  flex: 1;
+  background: orange;
+}
+.image {
+  flex: 1;
+  background: lightskyblue;
+}
+
+footer {
+  background: gray;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.error {
+  text-align: center;
+  color: red;
+}
